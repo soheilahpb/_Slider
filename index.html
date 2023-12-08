@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <link rel="stylesheet" href="font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/output.css">    
+</head>
+
+<body>
+    <main class="w-full h-screen overflow-y-hidden flex items-center justify-center">
+        <div class="screen w-[800px] h-[500px] relative overflow-x-hidden">
+            <div class="slider h-full flex absolute left-0 top-0 duration-500 ">
+                <figure class="relative"><img class="h-[500px] w-[800px] object-cover" src="img/1.jpg" alt=""><figcaption class="absolute left-[.5%] bottom-0 text-white">1</figcaption></figure>
+                <figure class="relative"><img class="h-[500px] w-[800px] object-cover" src="img/2.jpg" alt=""><figcaption class="absolute left-[.5%] bottom-0 text-white">2</figcaption></figure>
+                <figure class="relative"><img class="h-[500px] w-[800px] object-cover" src="img/3.jpg" alt=""><figcaption class="absolute left-[.5%] bottom-0 text-white">3</figcaption></figure>
+                <figure class="relative"><img class="h-[500px] w-[800px] object-cover" src="img/4.jpg" alt=""><figcaption class="absolute left-[.5%] bottom-0 text-white">4</figcaption></figure>
+            </div>
+            <ul id="list" class="w-full h-[20px] absolute top-0 left-0 flex bg-[rgba(0, 0, 0, 0.284)] justify-center items-center p-6"></ul>
+            <span class="absolute top-[50%] cursor-pointer text-white text-7xl -translate-y-[50%] right-[2%]" id="right"><i class="bi bi-arrow-right-short"></i></span>
+            <span class="absolute top-[50%] cursor-pointer text-white text-7xl -translate-y-[50%] left-[2%]" id="left"><i class="bi bi-arrow-left-short"></i></span>
+        </div>
+    </main>
+</body>
+<script src="javascript/master.js"></script>
+
+</html>
